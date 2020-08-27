@@ -22,9 +22,43 @@ body {
 
 #showcase .primary-overlay{
     background: rgba(50, 146, 166, 0.8);
+    /*absolute means the child will cover the parent*/
     position: absolute;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
+}
+
+.info-header {
+    width: 50%;
+    margin: auto; /*put it in the middle*/
+    border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+    margin-top: -50px;
+}
+#authors .card:hover {
+    background: #3292a6;
+    color: #fff;
+}
+#authors .fab {
+    color: #fff;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    #showcase {
+        min-height: 500px;
+    }
+    #showcase .h1 {
+        font-size: 3rem;
+    }
+    .mb-resp {
+        margin-bottom: 1rem;
+    }
 }
