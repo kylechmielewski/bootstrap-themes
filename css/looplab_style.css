@@ -15,7 +15,7 @@ body {
 }
 
 #home-section {
-    background: url(../img/home.jpg);
+    background: url(../LoopLAB/img/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
